@@ -1,0 +1,15 @@
+.home_container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+
+.block h1 {
+    font-weight: normal;
+}
