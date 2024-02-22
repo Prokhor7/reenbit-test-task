@@ -1,0 +1,22 @@
+{
+  "trips": [
+    {
+      "id": "94346c62-b333-4e62-ad7c-4b81e623e133",
+      "city": "Rio de Janeiro",
+      "startDate": "2024-02-28",
+      "endDate": "2024-03-08"
+    },
+    {
+      "id": "d44d260c-0cef-452f-a49b-3e0755a9334e",
+      "city": "Sydney",
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-05"
+    },
+    {
+      "id": "72c0e1a7-78f6-4859-ad6a-1d9ee94fcff0",
+      "city": "Paris",
+      "startDate": "2024-03-06",
+      "endDate": "2024-03-07"
+    }
+  ]
+}
