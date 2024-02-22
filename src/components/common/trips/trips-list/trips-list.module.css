@@ -1,0 +1,58 @@
+:root {
+  --color-gray1: #e1e1e1;
+  --color-gray2: #F9F9F9;
+  --color-gray3: #F2F4F8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_box {
+  display: flex;
+}
+
+.scrollable {
+  width: 900px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.action_buttons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.action_buttons button {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: 1px solid var(--color-gray1);
+}
+
+.add_trip {
+  list-style: none;
+}
+
+.add_trip div {
+  cursor: pointer;
+  margin-top: 0;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid var(--color-gray2);
+  background-color: var(--color-gray3);
+}
+
+.add_trip p {
+  margin: 0;
+}

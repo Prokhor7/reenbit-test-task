@@ -1,0 +1,117 @@
+:root {
+  --color-white: #ffffff;
+  --color-gray: #e1e1e1;
+  --color-blue: #2e90fd;
+  --color-skyblue: #a8d5fe;
+  --overlay-color: rgb(0 0 0 / 30%);
+  --shadow: -1px 4px 74px -16px rgb(0 0 0 / 15%);
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  background-color: var(--overlay-color);
+}
+
+.popup {
+  position: relative;
+  flex: 1;
+  max-width: 540px;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow);
+}
+
+.popup__header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.popup__close {
+  padding: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.popup__form {
+  padding: 40px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.popup__form p {
+  margin: 5px;
+}
+
+.popup__form p::before {
+  content: "* ";
+  color: red;
+}
+
+.select_city {
+  position: relative;
+}
+
+.select_city select {
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+}
+
+.select_city select option {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.select_date {
+  position: relative;
+}
+
+.select_date input {
+  padding: 10px;
+  font-size: 16px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray);
+  border-radius: 2px;
+  width: 96%;
+  outline: none;
+}
+
+.popup__buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 15px;
+}
+
+.popup__buttons button {
+  cursor: pointer;
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid var(--color-gray);
+}
+
+.popup__buttons .submit {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-skyblue);
+}
