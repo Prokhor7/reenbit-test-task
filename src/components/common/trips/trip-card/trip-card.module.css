@@ -1,0 +1,29 @@
+.trip_card {
+  list-style: none;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  cursor: pointer;
+}
+
+.city_img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+  border: 2px solid #F9F9F9;
+}
+
+.selected {
+  border-color: #94C0FF;
+}
+
+.info p {
+  color: #b1b1b1;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,70 @@
+:root {
+  --purple-gradient: linear-gradient(
+    rgb(133, 100, 187) 0%,
+    rgb(102, 44, 197) 85%
+  );
+}
+
+.forecast_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  min-height: 100%;
+  width: 400px;
+  background: var(--purple-gradient);
+  color: white;
+}
+
+.now {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.now h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.now h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+
+.icon_temp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_temp h1 {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.forecast_img {
+  width: 20%;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.time_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time_block strong {
+  font-size: 40px;
+}
+.time_block p {
+  margin: 0;
+}

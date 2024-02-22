@@ -1,0 +1,21 @@
+.forecast {
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 20px;
+}
+
+.forecast p {
+  margin: 0;
+}
+
+.forecast_img {
+  width: 70%;
+}
+
+.day {
+  color: #b1b1b1;
+}
