@@ -1,0 +1,11 @@
+.forecast_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast_list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
